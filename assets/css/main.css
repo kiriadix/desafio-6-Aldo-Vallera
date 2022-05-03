@@ -45,6 +45,10 @@ main section img {
 
 }
 
+.nav-logo{
+    width: 400px;
+}
+
 .div-titulo, .header-top{
     grid-column: 1 / span 2;
 }
@@ -115,7 +119,7 @@ nav li + li:before{
 
 .banner img{
     width: 100%;
-    height: 800px;
+    height: 650px;
 }
 
 .wp_float {
@@ -236,6 +240,10 @@ tr td {
  
  @media all and (max-width: 1045px) { 
 
+    .nav-logo{
+        width: 300px;
+    }
+
     section, nav , .logo{
         grid-column: 1 / span 2;
     }
@@ -266,6 +274,9 @@ tr td {
 
 @media all and (max-width: 550px) {
 
+    .nav-logo{
+        width: 300px;
+    }
 
     h2, h3 {
         font-size: 25px;
